@@ -1,0 +1,28 @@
+{
+    "data":[
+        {
+            "id":0,
+            "name":"Virginia Woolf",
+            "showpiece":"Mrs. Dalloway",
+            "image":"https://ifh.cc/g/6ycgO7.jpg",
+            "desc":"Adeline Virginia Woolf (née Stephen; 25 January 1882 – 28 March 1941) was an English writer, considered one of the most important modernist 20th-century authors and a pioneer in the use of stream of consciousness as a narrative device.",
+            "date":"1882.01.25."
+        },
+        {
+            "id":1,
+            "name":"Leo Tolstoy",
+            "showpiece":"War and Peace",
+            "image":"https://ifh.cc/g/7x4RyJ.jpg",
+            "desc":"Leo Tolstoy was a Russian writer who is regarded as one of the greatest authors of all time.[3] He received nominations for the Nobel Prize in Literature every year from 1902 to 1906 and for the Nobel Peace Prize in 1901, 1902, and 1909; the fact that he never won is a major controversy.",
+            "date":"1828.09.09."
+        },
+        {
+            "id":2,
+            "name":"Antoine de Saint-Exupéry",
+            "showpiece":"The Little Prince",
+            "image":"https://ifh.cc/g/jfyzcC.jpg",
+            "desc":"Antoine Marie Jean-Baptiste Roger was a French writer, poet, journalist and pioneering aviator. He became a laureate of several of France's highest literary awards and also won the United States National Book Award.",
+            "date":"1900.06.29."
+        }
+    ]
+}

@@ -1,3 +1,4 @@
+import { Container } from 'components/CommonUI/Container'
 import Header from 'components/Header/Header'
 import React from 'react'
 import { Outlet } from 'react-router-dom'
@@ -5,8 +6,10 @@ import { Outlet } from 'react-router-dom'
 function Root() {
   return (
     <div>
-      <Header/>
-      <Outlet/>
+      <Container>
+        <Header/>
+        <Outlet/>
+      </Container>
     </div>
   )
 }
