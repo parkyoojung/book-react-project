@@ -4,8 +4,12 @@ import { Text } from 'components/CommonUI/TextStyle'
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
 
+import data from 'assets/data/bestsellerdata.json'
+
+
 function MainBestseller() {
   const navigate = useNavigate();
+  const bestseller = data.data
 
   return (
      <Cols _height='350px' _gap='0px'>
@@ -21,9 +25,13 @@ function MainBestseller() {
       </Rows>
       <Rows _content='center' _padding='0 0 0 50px' _paddingmedia='0 0 0 20px'> 
         <Grid _height='350px'>
-          <ColsCard/>
-          <ColsCard/>
-          <ColsCard/>
+          {
+            bestseller.map((item, i)=>{
+              return(
+                <ColsCard item={item}/>
+              )
+            })
+          }
         </Grid>
       </Rows>
      </Cols>

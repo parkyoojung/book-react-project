@@ -1,6 +1,6 @@
 import { Cols, ImgLayout, Rows } from 'components/CommonUI/Layout'
 import React from 'react'
-import VirginiaWoolf from 'assets/img/VirginiaWoolf.jpg'
+import HermannHesse from 'assets/img/HermannHesse.jpg'
 import leonardodavinci from 'assets/img/leonardodavinci.jpg'
 import { Text } from 'components/CommonUI/TextStyle'
 import { BorderBox } from 'components/CommonUI/Button'
@@ -15,8 +15,8 @@ function MainBanner() {
       <Rows _bg='#FAF8F6'>
         <ImgLayout
           _width='150px' _height='200px' _margint='30px'
-          src={VirginiaWoolf}
-          />
+          src={HermannHesse}
+        />
         <ImgLayout
           _bdr='0px 0px 99px 99px' _width='150px' _height='200px' _display='none' _marginb='30px'
           src={leonardodavinci}

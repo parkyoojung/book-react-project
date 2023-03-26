@@ -1,0 +1,74 @@
+{
+    "data":[
+        {
+            "id":0,
+            "name":"Don Quixote",
+            "author":"Miguel de Cervantes",
+            "language":"Spanish",
+            "sales":"500 million",
+            "genre":"Adventure Fiction",
+            "image":"https://ifh.cc/g/RJc696.jpg",
+            "date":"1605 (1st Part), 1615 (2nd Part)"
+          },
+          {
+            "id":1,
+            "name":"A Tale of Two Cities",
+            "author":"Charles Dickens",
+            "language":"English",
+            "sales":"200 million",
+            "genre":"Historical fiction",
+            "image":"https://ifh.cc/g/TqNxop.jpg",
+            "date":"1859"
+          },
+          {
+            "id":2,
+            "name":"The Little Prince",
+            "author":"Antoine de Saint-Exupéry",
+            "language":"French",
+            "sales":"200 million",
+            "genre":"Novella",
+            "image":"https://ifh.cc/g/mVJcpO.jpg",
+            "date":"1943"
+          },
+          {
+            "id":3,
+            "name":"Harry Potter and the Philosopher's Stone",
+            "author":"J. K. Rowling",
+            "language":"English",
+            "sales":"120 million",
+            "genre":"Fantasy",
+            "image":"https://ifh.cc/g/dhB2lT.jpg",
+            "date":"1997"
+          },
+          {
+            "id":4,
+            "name":"And Then There Were None",
+            "author":"Agatha Christie",
+            "language":"English",
+            "sales":"100 million",
+            "genre":"Mystery",
+            "image":"https://ifh.cc/g/VB9nhm.jpg",
+            "date":"1939"
+          },
+          {
+            "id":5,
+            "name":"Dream of the Red Chamber ",
+            "author":"Cao Xueqin",
+            "language":"Chinese",
+            "sales":"100 million",
+            "genre":"Family saga",
+            "image":"https://ifh.cc/g/qRZZyY.jpg",
+            "date":"1791"
+          },
+          {
+            "id":6,
+            "name":"The Hobbit",
+            "author":"J. R. R. Tolkien",
+            "language":"English",
+            "sales":"100 million",
+            "genre":"Fantasy",
+            "image":"https://ifh.cc/g/88nm7x.jpg",
+            "date":"1937"
+          }
+        ]
+      }
