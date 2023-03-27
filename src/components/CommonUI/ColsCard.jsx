@@ -3,9 +3,15 @@ import { BorderBox } from './Button'
 import { Cols, ImgLayout, Rows } from './Layout'
 import { Text } from './TextStyle'
 import { BsFillSuitHeartFill } from 'react-icons/bs';
+import { useDispatch } from 'react-redux';
+import { addItem } from 'utils/store';
+
+
 
 function ColsCard({item}) {
-  console.log(item);
+  const dispatch = useDispatch()
+
+
   return (
     <Cols
       _content='center' _items='center' _width='150px' _gap='0px'
@@ -26,6 +32,9 @@ function ColsCard({item}) {
            _margin='15px 15px 0px 15px' _bg="pink50" _height='35px' _width='65%' _fontc='white' _pd='0px 0px 0px 15px'
         >
           <Rows
+            onClick={()=>{
+              dispatch(addItem({id:item.id, name:item.name, count:1, author:item.author, language:item.language, sales:item.sales, genre:item.genre, date:item.date, image:item.image}))
+            }}
             _bg='transparant' _padding='0px 0px 0px 13px'
           >
             <Text _color='white' _fonts='15px'>Like</Text>

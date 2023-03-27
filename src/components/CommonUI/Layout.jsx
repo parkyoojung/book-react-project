@@ -83,6 +83,7 @@ export const Rows = styled.div`
   overflow: ${p => p._overflow || "hidden"};
   transform: ${p => p._transform};
   background-color: ${p => p._bg || 'white'};
+  margin: ${p => p._margin};
   @media screen and (max-width: 620px) {
     padding: ${p => p._paddingmedia};
   }

@@ -1,3 +1,5 @@
+import { Container } from 'components/CommonUI/Container';
+import Header from 'components/Header/Header';
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
@@ -11,15 +13,18 @@ function BestSellerPage() {
     navigate(`/bestseller/${details}`)
   }
   return (
-    <div>
-      BestSellerPage
-      <div onClick={handleMove}>
-        BestSellerDetail
-      </div>
-      <button onClick={handleMove}>
-        BestSellerDetail
-      </button>
-    </div>
+      <Container>
+        <Header/>
+        <div>
+          BestSellerPage
+          <div onClick={handleMove}>
+            BestSellerDetail
+          </div>
+          <button onClick={handleMove}>
+            BestSellerDetail
+          </button>
+        </div>
+      </Container>
   )
 }
 
