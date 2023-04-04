@@ -23,3 +23,4 @@ console.log(author);
 }
 
 export default AuthorPage
+

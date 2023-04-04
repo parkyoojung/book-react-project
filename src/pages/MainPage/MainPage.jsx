@@ -15,8 +15,8 @@ function MainPage() {
     >
       <MainSwiper/>
       <MainBanner/>
-      <MainBestseller/>
       <MainExhibit/>
+      <MainBestseller/>
       <MainAuthor/>
       <MainFooter/>
     </Container>
